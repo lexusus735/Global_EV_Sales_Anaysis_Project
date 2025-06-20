@@ -1,24 +1,31 @@
-# Introduction
-This project explores the global growth of electric vehicles (EVs) through detailed data analysis from 2010 to 2023. Using data from the [International Energy Agency (IEA)](https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer), we analyze sales, stock levels, and market shares to understand regional trends and powertrain preferences.
-# Background
-The global shift toward electric mobility is driven by environmental concerns, government policies, and technological advancements. EV adoption is rising rapidly, but the pace and nature of this transition vary across countries and powertrain types. This analysis aims to uncover key insights from more than a decade of EV market data.
-# Key Questions
-This study seeks to answer the following core questions:
-1. What is the global EV sales trend from 2010 to 2023?
-3. What are the EV sales patterns in key regions (China, EU27, USA, and World)?
-4. How do global EV sales compare among BEV, PHEV, and FCEV powertrains?
-5. What are the regional trends of EV sales over time?
-6. How has the EV sales share changed over time in different regions?
-7.How has the EV stock share evolved across key regions?
-8. What is the overall EV sales and stock performance by region?
-# Tools & Technologie
-- Language: Python 3
-- Libraries Used:
-  - pandas – for data manipulation
-  - matplotlib & seaborn – for static visualizations
-  - plotly – for interactive and animated charts
-  - numpy – for numerical operations
-# Analysis Overview
+## Global EV Market Analysis (2010–2023)
+
+This data analysis project explores over a decade of global electric vehicle (EV) trends using real-world data from the [International Energy Agency (IEA)](https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer), It investigates how EV sales, market shares, and adoption patterns have evolved across **regions, powertrain types, and time**.
+
+---
+## Project Purpose
+
+Electric vehicles are reshaping the automotive industry. This project was developed to answer key questions about global EV adoption using clean, data-driven methods and visual storytelling.
+> How fast is the world adopting EVs — and who’s leading the charge?
+---
+## Key Research Questions
+1. What is the global trend of EV sales from 2010 to 2023?
+2. How do EV sales vary by region — China, EU27, USA, and globally?
+3. What are the global adoption patterns of BEV, PHEV, and FCEV powertrains?
+4. How do sales and stock shares compare across regions over time?
+5. Which countries show the strongest momentum in EV growth?
+---
+## Tools & Technologie
+| Tool / Library          | Purpose                                    |
+| ----------------------- | ------------------------------------------ |
+| **Python 3**            | Core programming language                  |
+| **pandas**              | Data cleaning and transformation           |
+| **matplotlib, seaborn** | Static visualization libraries             |
+| **plotly**              | Interactive and animated charts            |
+| **numpy**               | Numerical operations                       |
+| **Jupyter Notebooks**   | Exploratory analysis & visual storytelling |
+---
+## Analysis & Key Visuals
 1. What is the global EV sales trend from 2010 to 2023?
 ![global_ev_saales](https://github.com/user-attachments/assets/d405ece1-54a8-4277-a504-35f2ce826b18)
 2. What are the EV sales patterns in key regions (China, EU27, USA, and World)?
@@ -45,17 +52,28 @@ This study seeks to answer the following core questions:
 ![stock_performance](https://github.com/user-attachments/assets/d62b7ad4-3876-489c-b4a2-78ed88b4fe87)
 by region?
 
-# Key Learning
-- EV sales have seen exponential growth, especially after 2015.
-- BEVs lead the global EV market, followed by PHEVs; FCEVs remain marginal.
-- China dominates EV sales, with rapid year-over-year increases.
-- Europe and the U.S. show steady growth but differ in powertrain preferences.
-- Emerging markets like India and South Africa are still in early stages of EV adoption.
-- EV sales and stock shares have risen significantly in leading regions, indicating growing market penetration.
-# Recommendation
-- Governments should continue and expand EV incentives and infrastructure investment, especially in underperforming regions.
-- Manufacturers should prioritize BEV development while maintaining strategic offerings in PHEV segments.
-- Emerging economies need targeted policies to boost EV adoption, such as subsidies and localized production.
-- Further analysis should include charging infrastructure availability, fuel savings, and future scenario modeling (e.g., projections under different policy frameworks).
-# Conclusion
-This analysis provides a clear view of the global electric vehicle market from 2010 to 2023. The growth of EVs is robust but uneven across regions and powertrains. China, the EU, and the U.S. lead the shift, while other nations are catching up. As EV technology and infrastructure continue to mature, the global automotive landscape is poised for a major transformation.
+## Key Learning
+- Global Growth: EV sales have exploded since 2015, driven by policy and tech innovation.
+- China leads globally in both total and year-over-year EV sales.
+- EU shows consistent growth across multiple powertrain types.
+- US growth is slower but stable; FCEVs remain niche.
+- Emerging Markets like India and South Africa are in the early adoption phase.
+
+---
+## Recommendation
+- Governments should expand EV incentives and invest in charging infrastructure — especially in developing economies.
+- Auto manufacturers should focus on BEVs while keeping PHEVs for hybrid use cases.
+- Policymakers in emerging markets must prioritize local EV assembly and subsidies to boost uptake.
+- Future work should include:
+  - Charging infrastructure analysis
+  - Total cost of ownership (TCO) comparisons
+  - Forecast modeling under different regulatory scenarios
+## Conclusion
+This project offers a comprehensive overview of the EV revolution from 2010 to 2023. With rich visualizations and region-specific insights, it presents a clear picture of the market’s trajectory — and what’s needed to sustain momentum globally.
+
+> The transition to electric mobility is happening — but not equally. Where and how it accelerates next depends on data-driven decisions.
+
+---
+## Acknowledgements
+- Data from the [IEA Global EV Data Explorer](https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer)
+- Project inspired by the global shift toward sustainable transportation
